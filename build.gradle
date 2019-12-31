@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.homecredit.automation'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation 'io.cucumber:cucumber-java8:4.7.4'
+    testImplementation 'io.cucumber:cucumber-junit:4.7.4'
+}
